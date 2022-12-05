@@ -1,13 +1,61 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# All for One ⚔️
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Project Context 💡
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+A project used to practice some SQL concepts. In this project, the Northwind database (`northwind.sql`) was used to make the queries. Each query is in a file called `desafio{N}.sql` where "N" is the number of the requirement that the file represents.
+
+### Acquired Knowledge 📖
+
+In this project, I was able to:
+- Find data in a Database using MySQL SELECT;
+- Use MySQL functions CONCAT and COUNT;
+- Distinct data using DISTINCT;
+- Limit query results using LIMIT and LIMIT OFFSET;
+- Sort data using ORDER BY;
+- Filter data using WHERE clause, boolean operators, and relational operators;
+- Manipulate data using INSERT, UPDATE, and DELETE.
+
+## Used Technologies 🧰
+<table>
+    <thead>
+        <tr>
+            <th>Docker</th>
+            <th>MySQL</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">
+                <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> 
+                    <img 
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" 
+                        alt="docker" 
+                        width="40" 
+                        height="40"
+                    /> 
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
+                    <img 
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" 
+                        alt="mysql" 
+                        width="40" 
+                        height="40"
+                    /> 
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+## Running the application ⚙️
+
+1. Clone and enter this repository
+```
+git clone git@github.com:ImVictorM/All-For-One.git && cd All-For-One
+```
+2. Install the dependencies
+```
+npm install 
+```
